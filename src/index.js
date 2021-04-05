@@ -25,7 +25,6 @@ import { Box } from 'spectacle';
 import panel_dsp from '../assets/figs/panel_dsp.png';
 import covo_sd5 from '../assets/movies/covo_sd5.mp4';
 
-
 class Presentation extends React.Component {
   render() {
     return (

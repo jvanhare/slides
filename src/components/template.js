@@ -24,10 +24,10 @@ const template = ({ slideNumber, numberOfSlides }) => (
         </FlexBox>
         <FlexBox justifyContent="space-between" position="absolute" bottom={0} left={280} right={0} top={732} style={{ borderTop: '3px solid #5679a3' }} ></FlexBox>
         <FlexBox justifyContent="space-between" position="absolute" bottom={0} left={300} right={10} margin={5}>
-            <Box > <Text fontSize="16px"><div dangerouslySetInnerHTML={{ __html: author }} /></Text> </Box>
-            <Box > <Text fontSize="16px">{config.title}</Text></Box>
-            <Box > <Text fontSize="16px">{date}</Text></Box>
-            <Box > <Text fontSize="16px">{slideNumber} / {numberOfSlides}</Text></Box>
+            <Box ><Text fontSize="16px"><div dangerouslySetInnerHTML={{ __html: author }} /></Text> </Box>
+            <Box ><Text fontSize="16px">{config.title}</Text></Box>
+            <Box ><Text fontSize="16px">{date}</Text></Box>
+            <Box ><Text fontSize="16px">{slideNumber} / {numberOfSlides}</Text></Box>
         </FlexBox>
     </Container>
 );

@@ -1,16 +1,5 @@
-Spectacle Boilerplate
-=====================
-
-## Contents
-
-- [Reference](#reference)
-- [Getting Started](#getting-started)
-- [Tutorial](#tutorial)
-- [Build & Deployment](#build-deployment)
-
-## Reference
-
-The Spectacle core API is available in the [Spectacle Docs](https://github.com/FormidableLabs/spectacle/blob/main/README.md).
+Spectacle.js template slides
+============================
 
 ## Getting Started
 
@@ -29,16 +18,16 @@ The Spectacle core API is available in the [Spectacle Docs](https://github.com/F
     $ yarn start --port=3000
     ```
 
-## Tutorial
-
-If want you a step-by-step guide for getting started with Spectacle, a basic tutorial is available [here](https://github.com/FormidableLabs/spectacle/blob/main/docs/tutorial.md).
-
 ## Build & Deployment
 
-Building the dist version of the project is as easy as running
+Building the public version of the project is as easy as running
 
 ```sh
 $ yarn build
 ```
 
-From there you can deploy the built slides  in `dist` to services like Netlify, Surge, etc!
+Deploying to GitHub pages
+
+```sh
+$ yarn run deploy
+```
