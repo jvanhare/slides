@@ -108,7 +108,7 @@ module.exports = {
       process: 'process/browser',
     }),
     new HtmlWebpackPlugin({
-      title: 'Spectacle presentation',
+      title: 'Spectacle.js template slides',
       template: './src/index.html'
     })
   ]

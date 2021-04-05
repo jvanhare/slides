@@ -1,6 +1,6 @@
 {
   "name": "spectacle-presentation",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Spectacle presentation",
   "license": "MIT",
   "scripts": {
@@ -19,6 +19,7 @@
     "assert": "^2.0.0",
     "bootstrap": "^4.6.0",
     "css-loader": "^5.2.0",
+    "gh-pages": "^3.1.0",
     "katex": "^0.13.0",
     "process": "^0.11.10",
     "prop-types": "^15.7.2",
