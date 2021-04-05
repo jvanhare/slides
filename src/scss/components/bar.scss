@@ -1,0 +1,24 @@
+.BarChart {
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row;
+  height: 5px;
+  width: inherit;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.BarDataLeft {
+  background-color: $blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BarDataRight {
+  background-color: $red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
