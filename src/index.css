@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+}
+
+ul li:before {
+    content: "";
+    width: .3em;
+    height: .3em;
+    background-color: #e63312;
+    float: left;
+    margin: 0.3em 0.5em;
+    border-radius: 50%;
+}
+
+.katex {
+    font-size: 1em;
+}
